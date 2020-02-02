@@ -1,0 +1,21 @@
+insert into cliente (id, nome, email, data_nascimento) values (1, 'Alexandre Rolim', 'alex.gr.rj@gmail.com', '1982-06-24');
+insert into cliente (id, nome, email, data_nascimento) values (2, 'João Silva', 'jsilva@eicon.com', '1988-04-24');
+insert into cliente (id, nome, email, data_nascimento) values (3, 'Maria Silva', 'msilva@eicon.com', '1991-01-24');
+insert into cliente (id, nome, email, data_nascimento) values (4, 'Pedro Costa', 'pcosta@eicon.com', '1999-03-24');
+insert into cliente (id, nome, email, data_nascimento) values (5, 'Vivian Castro', 'vcastro@eicon.com', '1985-05-24');
+insert into cliente (id, nome, email, data_nascimento) values (6, 'Rodrigo Alves', 'ralves@eicon.com', '1998-08-24');
+insert into cliente (id, nome, email, data_nascimento) values (7, 'Luana Silva', 'lsilva@eicon.com', '2001-12-24');
+insert into cliente (id, nome, email, data_nascimento) values (8, 'Camila ALves', 'calves@eicon.com', '1996-07-24');
+insert into cliente (id, nome, email, data_nascimento) values (9, 'Bruna Pereira', 'bpereira@eicon.com', '1981-06-24');
+insert into cliente (id, nome, email, data_nascimento) values (10, 'João Oscar', 'joscar@eicon.com', '1995-05-24');
+
+insert into pedido (data_cadastro, id_cliente) values ('2019-03-12', 2);
+insert into pedido (data_cadastro, id_cliente) values ('2019-07-10', 1);
+insert into pedido (data_cadastro, id_cliente) values ('2019-01-21', 4);
+insert into pedido (data_cadastro, id_cliente) values ('2019-06-15', 6);
+insert into pedido (data_cadastro, id_cliente) values ('2019-08-27', 8);
+insert into pedido (data_cadastro, id_cliente) values ('2019-11-16', 5);
+insert into pedido (data_cadastro, id_cliente) values ('2019-12-08', 10);
+insert into pedido (data_cadastro, id_cliente) values ('2019-09-02', 9);
+insert into pedido (data_cadastro, id_cliente) values ('2019-05-01', 3);
+insert into pedido (data_cadastro, id_cliente) values ('2019-03-14', 7);
